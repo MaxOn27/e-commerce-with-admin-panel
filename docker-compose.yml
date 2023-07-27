@@ -1,0 +1,22 @@
+version: "3.8"
+
+services:
+  admin:
+    restart: always
+    image: admin
+#    build: admin
+    container_name: admin
+    ports:
+      - '3000:3000'
+    volumes:
+      - ./admin:/app
+
+  shop:
+    restart: always
+    image: shop
+#    build: shop
+    container_name: shop
+    ports:
+      - '4000:4000'
+    volumes:
+      - ./shop:/app
