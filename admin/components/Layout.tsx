@@ -1,7 +1,7 @@
 import {Fragment} from "react";
 import Image from 'next/image'
 
-import Navigation from "@/components/navigation";
+import Navigation from "@/components/Navigation";
 import {signOut, useSession} from "next-auth/react";
 
 

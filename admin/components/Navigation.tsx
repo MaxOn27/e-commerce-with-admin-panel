@@ -71,7 +71,7 @@ const Navigation = () => {
           />
           <Link href="/settings" className="text-gray-500 font-bold mx-2">Settings</Link>
         </li>
-        <li className="flex items-center m-2 p-2">
+        <li className="flex items-center m-2 p-2 my-10">
           <FontAwesomeIcon
             icon={faSignOut}
             style={{ fontSize: 17, color: "gray" }}
